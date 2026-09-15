@@ -6,7 +6,7 @@
 import { useState } from 'react';
 
 export default function App() {
-  const [isIntroExpanded, setIsIntroExpanded] = useState(false);
+  const [isIntroExpanded, setIsIntroExpanded] = useState(true);
 
   return (
     <div className="min-h-screen bg-white text-black font-sans selection:bg-black selection:text-white">
@@ -35,7 +35,7 @@ export default function App() {
               <iframe
                 width="100%"
                 height="100%"
-                src="https://www.youtube.com/embed/HmbEwJvxNBY"
+                src="https://www.youtube.com/embed/HmbEwJvxNBY?autoplay=1&mute=1"
                 title="Intro Video"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
