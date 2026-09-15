@@ -1,0 +1,6 @@
+{
+  "name": "Gephel's Blueprint",
+  "description": "Mindset Module Video Platform",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
